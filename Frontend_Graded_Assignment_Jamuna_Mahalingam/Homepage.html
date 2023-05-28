@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <header>
+        <h1>Pharmacy</h1>
+    </header>
+    
+    <nav id="navigate">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Medicines</a>
+                <ul id="dropDown_2">
+                    <li><a href="#">Fever</a></li>
+                    <li><a href="#">Muscle Pains</a></li>
+                    <li><a href="#">Cold and Cough</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Healthcare</a>
+                <ul id="dropDown_3">
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Home Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Pet Care</a></li>
+                </ul>
+            </li>
+            <li><a target="_blank" href="Labform.html">Lab Test </a></li>
+        </ul>
+    </nav>
+    
+    <div class="animation">
+    </div>
+    
+<section>
+    <article id="covid_care">
+        <h2>Covid Care</h2>
+            <div class="care">
+                <h3>Covid Test Kit</h3>
+                <img src="Products/c1.jpg" alt="covid test kit">
+                <p>Rs. 40</p>
+                <p>Offer: Rs. 30/-</p>
+                <button onclick="
+                document.getElementsByClassName('care')[0].style.background='rgb(250, 234, 230)';
+                document.getElementsByClassName('care')[0].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+            </div>
+            
+            <div class="care">
+                <h3>Covid Essentials</h3>
+                <img src="Products/c2.jpg" alt="covid essentials">
+                <p>Rs. 240</p>
+                <p>Offer: Rs. 170/-</p>
+                <button onclick="
+                document.getElementsByClassName('care')[1].style.background='rgb(250, 234, 230)';
+                document.getElementsByClassName('care')[1].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+            </div>
+            
+            <div class="care">
+                <h3>Sanitizer Bottle</h3>
+                <img src="Products/c3.jpg" alt="sanitizer bottle">
+                <p>Rs. 99</p>
+                <p>Offer: Rs. 87/-</p>
+                <button onclick="
+                document.getElementsByClassName('care')[2].style.background='rgb(250, 234, 230)';
+                document.getElementsByClassName('care')[2].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+            </div>
+            
+            <div class="care">
+                <h3>Mask</h3>
+                <img src="Products/c4.jpg" alt="mask">
+                <p>Rs. 45</p>
+                <p>Offer: Rs. 30/-</p>
+                <button onclick="
+                document.getElementsByClassName('care')[3].style.background='rgb(250, 234, 230)';
+                document.getElementsByClassName('care')[3].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+            </div>
+            
+            <article id="diabetes_care">
+                <h2>Diabetes Care</h2>
+                    <div class="care">
+                        <h3>BGR-34 Tablets</h3>
+                        <img src="Products/d1.jpg" alt="bgr 34 tablets">
+                        <p>Rs. 45</p>
+                        <p>Offer: Rs. 30/-</p>
+                        <button onclick="
+                        document.getElementsByClassName('care')[4].style.background='rgb(250, 234, 230)';
+                        document.getElementsByClassName('care')[4].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+                    </div>
+                    
+                    <div class="care">
+                        <h3>Dabur Chyawanprash</h3>
+                        <img src="Products/d2.jpg" alt="dabur chyawanprash">
+                        <p>Rs. 45</p>
+                        <p>Offer: Rs. 30/-</p>
+                        <button onclick="
+                        document.getElementsByClassName('care')[5].style.background='rgb(250, 234, 230)';
+                        document.getElementsByClassName('care')[5].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+                    </div>
+                    
+                    <div class="care">
+                        <h3>Colgate Diabetics</h3>
+                        <img src="Products/d3.jpg" alt="colgate diabetics">
+                        <p>Rs. 99</p>
+                        <p>Offer: Rs. 87/-</p>
+                        <button onclick="
+                        document.getElementsByClassName('care')[6].style.background='rgb(250, 234, 230)';
+                        document.getElementsByClassName('care')[6].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+                    </div>
+                    
+                    <div class="care">
+                        <h3>Unibic Butter Cookies</h3>
+                        <img src="Products/d4.png" alt="unibic cookies">
+                        <p>Rs. 35</p>
+                        <p>Offer: Rs. 30/-</p>
+                        <button onclick="
+                        document.getElementsByClassName('care')[7].style.background='rgb(250, 234, 230)';
+                        document.getElementsByClassName('care')[7].style.border='2px solid rgb(0, 255, 76)'">Add to cart</button>
+                    </div>
+    </article>
+</section>
+    
+    <footer>
+        <h4>@copyright. Only for demonstration purposes</h4>
+    </footer>
+</body>
+</html>
